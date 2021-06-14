@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="myhangmanGame.css">
+<style>
+    h1
+	{
+		color:gray;
+		text-align:center;
+		font-size:100px;
+	}
+	#demo1{
+		background-color:white;
+		border:2px solid black;
+		color:#008B8B;
+	}
+	#demo{
+		color:gray;
+		font-size:50px;
+		background-color:white;
+		border:2px solid black;
+
+	}
+	#demo2
+	{
+		background-color:white;
+		color:gray;
+		font-size:25px;
+	}
+	body
+	{
+      	background: linear-gradient(90deg, rgba(131,58,180,0.7) 0%, rgba(253,29,29,0.7) 50%, rgba(252,176,69,0.7) 100%); 
+    
+    }
+    .btn
+    {
+    	background-color:white;
+    	border:2px solid black;
+    	cursor: pointer;
+    	text-align:center;
+    	padding:15px 32px;
+    	font-size:20px;
+    }
+     .b1{
+
+   		position:fixed;
+  		left: 700px;
+  		top: 350px;
+}
+
+	
+</style>
+
+
+	
+</head>
+<body>
+<!--<body background="https://i.pinimg.com/564x/9f/a3/37/9fa337534a9016f5e888e5dcdc35938c.jpg">-->
+<h1><span id="demo1">
+HANGMAN GAME</h1></span>
+<!--<audio src="game1.mp3" id="bgm"></audio>-->
+<audio src="game1.mp3" id="clicksound" ></audio>
+<center><span id="demo"></span></center><br><br>
+<button class="btn b1" type="button" onclick="clicks()">hello my namedejfdshdkj</button>
+<canvas id="canvas" height="500px" width="500px" style="border:4px dashed #000000;">
+</canvas>
+
+</body>
+<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+<script src="myhangmanGame.js"></script>
+</html>
